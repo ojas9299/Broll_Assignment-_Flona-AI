@@ -1,0 +1,33 @@
+{
+  "aroll_duration_sec": 55,
+  "insertions": [
+    {
+      "start_sec": 6,
+      "duration_sec": 2.5,
+      "broll_id": "broll_1",
+      "confidence": 0.77,
+      "reason": "Visual reinforces: \"Hum roz jo khana khate hain, uski quality pe hum rarely dhyaan dete hain.\""
+    },
+    {
+      "start_sec": 15,
+      "duration_sec": 2.5,
+      "broll_id": "broll_2",
+      "confidence": 0.75,
+      "reason": "Visual reinforces: \"Street food aur takeaway humari daily life ka hissa ban chuka hai.\""
+    },
+    {
+      "start_sec": 25.5,
+      "duration_sec": 2.5,
+      "broll_id": "broll_6",
+      "confidence": 0.77,
+      "reason": "Visual reinforces: \"Par hygiene aur cleanliness ko hum aksar ignore kar dete hain.\""
+    },
+    {
+      "start_sec": 38,
+      "duration_sec": 2.5,
+      "broll_id": "broll_2",
+      "confidence": 0.76,
+      "reason": "Visual reinforces: \"Agar hum thoda conscious banein, better choices possible hain.\""
+    }
+  ]
+}
