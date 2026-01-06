@@ -150,3 +150,16 @@ React UI for transcript and timeline visualization
 Scene-aware B-roll duration adjustment
 
 Emotion-aware insertion suppression
+
+## Frontend (Planned / Optional)
+
+A minimal React frontend was planned to support:
+- Uploading A-roll and B-roll assets
+- Viewing timestamped transcripts
+- Visualizing proposed B-roll insertions
+
+Due to time constraints, the current submission focuses on the core
+planning system and backend logic, which was the primary evaluation goal.
+The backend outputs a structured JSON plan that is directly consumable by a frontend.
+
+
