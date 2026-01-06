@@ -92,6 +92,27 @@ Mock Mode: Uses cached transcripts and synthetic embeddings to allow determinist
 
 This allows the planning logic to be evaluated independently of external API availability.
 
+Running in Mock Mode vs Live AI Mode
+
+This system supports two execution modes to balance reproducibility and real-world API usage.
+
+Mock Mode (Default)
+
+By default, the system runs in mock mode, which:
+
+Does not require an OpenAI API key
+
+Does not make any external API calls
+
+Uses a cached transcript and synthetic embeddings
+
+Allows deterministic, quota-free execution of the planning logic
+
+This mode exists to ensure the core B-roll planning system can be evaluated independently of API availability.
+
+// index.js
+const USE_MOCK_AI = true;
+
 Output Example
 {
   "start_sec": 25.5,
